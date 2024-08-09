@@ -1,6 +1,0 @@
-1. WEATHER-FINDER:
-             using html,css,js,reactjs
-2. QR-CODE GENERATOR:
-             using HTML,CSS,js,reactjs
-3. CURRENCY-CONVERTOR:
-             using HTML,CSS,,JavaScript,reactjs

@@ -9,19 +9,20 @@
 <body>
   <div class="box1">
     <header>
-<h2 class="logo"> S.S.Hariharan</h1>
+<!-- <h2 class="logo"> S.S.Hariharan</h1> -->
 <!-- <h1>welcome to my portfolio site</h3> -->
   <nav >
     <ul class="navlink">
-      <li><a href="index.html" target="_blank">Home</a></li>
-      <li><a href="about.txt"  target="_blank">About</a></li>
-      <li><a href="projects.txt" target="_blank">Projects</a></li>
-      <li><a href="contact.txt" target="_blank">Contact</a></li>
-      <li><a href="biodata.txt" target="_blank">Bio</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" >About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="biodata.html">Bio</a></li>
     </ul>
   </nav>
 </header>
-<table  >
+<h1>welcome to my portfolio site</h3>
+<!-- <table  >
   <caption>projects</caption>
 <tr>
 <th>name</th>
@@ -45,26 +46,31 @@ target="_blank">visit</a></td>
   <td><a href=" https://sshariharan24.github.io/fb-login/"
   target="_blank">visit</a></td>
 </tr>
-</table>
+</table> -->
 <div class="input-grp">
 <form action="#" method="post">
-<h2>Contact Me:</h2>
-
+<!-- <h2>Fill Out The Information :</h2> -->
+<div>
 <label for="fname">First Name:</label>
 <input type="text" id="fname" name="fname" required>
-
+</div><br>
+<div>
 <label for="lname">Last Name:</label>
 <input type="text" id="lname" name="lname" required><br><br>
-
-<label for="dob">Date of Birth:</label>
+</div>
+<div>
+<label for="dob">DOB:</label>
 <input type="date" id="dob" name="dob" required>
+</div><br>
+<div>
 <label for="tele">Mobile No:</label>
 <input type="tel" id="tele" name="dob" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" placeholder="1234-567-890" required>
-<br><br>
-
+</div>
+<br>
+<div>
 <label for="email">Email:</label>
 <input type="email" id="email" name="email" required>
-
+</div><br>
 <label for="password">Password:</label>
 <input type="password" id="password" name="password" required>
 </div>
@@ -75,8 +81,7 @@ target="_blank">visit</a></td>
 <label for="male">Male</label>
 <input type="radio" id="female" name="gender" value="female">
 <label for="female">Female</label><br><br>
-<!-- <input type="radio" id="other" name="gender" value="other">
-<label for="other">Other</label> -->
+
 
 <label>Interests:</label>
 <input type="checkbox" id="coding" name="interests[]" value="coding">
@@ -88,7 +93,7 @@ target="_blank">visit</a></td>
 
 <label for="message">Message:</label>
 <textarea id="message" name="message"></textarea><br>
-<button type="submit" class="btn-submit">Submit</button>
+<div class="btn"><button type="submit" class="btn-submit">Submit</button></div>
 </div>
 </form>
 </div>
