@@ -1,0 +1,8 @@
+name : hariharanss
+age : 21
+Degree : B.E (CSE)
+College : LMEC
+year : final year
+domain : web devoloper
+CGPA : 80%
+skills : Html,css,js,Bootstrap,Reactjs , Nodejs , MongoDB ,git, github,problem solving 
