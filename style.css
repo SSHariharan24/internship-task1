@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 10%;
+    padding: 15px 15px;
     background-color: #414A4f;
    }
 
@@ -18,7 +18,7 @@
     color: white;
     font-weight: 400;
     font-size: 19px;
-    order: 3;
+    order: 2;
    }
 
 .navlink{
@@ -39,28 +39,63 @@
 .navlink li a:hover{
     color: #41dfff;
 }
-   body{
-   background-image: linear-gradient(to left top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
-   /* background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
-   background-size: 400% 400%;
-   animation: animatebg 2s ease infinite;
+
+.input-grp{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+body{
+background-image: linear-gradient(to left top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+background-size: 400% 400%;
+animation: animatebg 2s ease infinite;
    }
  
-   @keyframes animatebg {
+@keyframes animatebg {
      0%{background-position: 0;}
      50%{background-position: 50;}
      100%{background-position: 100;}
    }
    .box1{
-    text-align: center;
-   }
+    max-width: 1000px;
+    border-collapse: collapse;
+    border-radius: 5px;
+ background-color: #16dcdf;
+ margin-top: 15px;
+ margin-left: 200px;
+ margin-bottom: 15px;
+ padding: 15px;
+ overflow: auto;
+ border: 2px solid rgb(78, 209, 202);
+ box-shadow: 2px 2px 3px;
+  }
  
-   .input-grp{
-   
-   }
-   
+  table{
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+    color: #444;
+    border-collapse: collapse;
+  }
+
+  table>thead th{
+    text-transform: uppercase;
+    padding: 15px;
+    }
+
+    table th,table td{
+      border: 1px solid black;
+      padding: 10px;
+    }
+
+    table td{
+      text-align: center;
+    }
+
+
    .checkbox-grp{
-     flex-wrap: wrap;
+     justify-content: center;
+     text-align: center;
      margin: 10px;
      padding: 10px;
    }
@@ -80,7 +115,7 @@
  -webkit-background-clip: text;
  }
  
- table, th, td {
+ /* table, th, td {
  border: 1px solid rgb(255, 255, 255);
  border-collapse: collapse;
  background-color: #16dcdf;
@@ -88,8 +123,13 @@
  padding: 15px;
  border: 2px solid red;
  box-shadow: 2px 2px 3px;
- } 
- th:hover,td:hover {
+ }  */
+
+ .Links{ 
+  padding: 100px;
+text-align: center;
+ }
+ td:hover {
  background-color:#13c7ca; 
  }
 
